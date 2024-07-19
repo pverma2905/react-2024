@@ -1,0 +1,1 @@
+common data accessed through out the component without passing the props

@@ -1,0 +1,12 @@
+hooks are funtion based component
+hooks are additional feature of react 16.8
+hooks only work in funtion component not in class component
+
+
+don't need any knowledge of oop concept
+don't need any knowledge of this concept
+we don't need to use multiple life cycle and need to learn about them
+example:- 
+componentDidMount()
+componentDidUpdate()
+componentWillUnmount()

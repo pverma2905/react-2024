@@ -1,0 +1,15 @@
+it used for life cyclehooks
+
+it is used for mounting,updating,unmounting
+
+mounting:- 
+useEffect(()=>{
+
+},[])
+
+updating:-
+useEffect(()=>{
+
+})
+
+unmounting:-
