@@ -3,12 +3,13 @@ import { useState } from 'react';
 
 function App() {
   const [name,setName] =useState({firstName:'',lastName:''})
-  const submit = ()=>{
-    console.log("submit")
+  const submit = (e)=>{
+    e.preventDefault();
+    console.log("submit",name)
   }
   return (
     <div className="App">
-      <form>
+      <form onSubmit={submit}>
         <label>FirstName</label>
         <input type="text" onChange={(e)=>setName({...name,firstName:e.target.value})} /><br/>
         <label>LastName</label>
